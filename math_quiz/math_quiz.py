@@ -13,11 +13,6 @@ def getRandomIntInIntervall( min: int , max: int):
         function returns random Integer in Intervall [min,max]
     """
     print("before",min,max)
-    #if min <0: 
-    #    min = min*(-1)
-    #if max <0:
-    #    max= max*(-1)
-        
     # returns the output using the random lib
     print("Values",min, max)
     return random.randint(min, max)
