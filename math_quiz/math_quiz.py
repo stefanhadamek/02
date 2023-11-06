@@ -12,7 +12,14 @@ def getRandomIntInIntervall( min: int , max: int):
     Returns: 
         function returns random Integer in Intervall [min,max]
     """
+    print("before",min,max)
+    #if min <0: 
+    #    min = min*(-1)
+    #if max <0:
+    #    max= max*(-1)
+        
     # returns the output using the random lib
+    print("Values",min, max)
     return random.randint(min, max)
 
 
@@ -35,6 +42,7 @@ def performOperation( first_op: int, second_op: int, op):
         
     Returns: 
         function performs the mathematical operator -> "first_op op second_op"
+        returns the statement, output as a tuple
     """
     # creating string to show full operation
     statement = f"{first_op} {op} {second_op}"
